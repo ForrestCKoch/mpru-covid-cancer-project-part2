@@ -1,0 +1,181 @@
+---
+title: "Overall Dispensings"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(xts)
+library(magrittr)
+library(tidyverse)
+library(dplyr)
+library(DT)
+library(lubridate)
+source('../src/data-preprocessing.R')
+knitr::opts_chunk$set(echo = F)
+
+meta <- read.csv('../../data/ldrugs_classifications_080222.csv') %>% 
+  column_to_rownames('item') %>%
+  mutate(exp.class=paste0(class,'-',main.route))
+disp <- readRDS('../../data/derivatives/raw-entries_l01-l02-supps_2012-2022.rds') %>%
+  filter(SUPP_DATE >= as.Date('2016-06-01'),
+         SUPP_DATE <  as.Date('2022-06-01'))
+
+disp %<>% mutate(class=ifelse(
+  ATC_CODE %in% sup.meds, 'Supportive', ifelse(
+    ATC_CODE %in% l02.meds, 'Endocrine', ifelse(
+      grepl('^A04AA', ATC_CODE), 'Seratonin antagonists',
+      meta[ITEM_CODE,'exp.class']
+  ))))
+```
+
+# Item codes not included in the classification sheet
+
+```{r}
+disp %>% filter(is.na(class)) %>% select(ITEM_CODE, ATC_CODE, SUPP_DATE) %>%
+  group_by(ATC_CODE, ITEM_CODE) %>% summarize(`Last year of dispensing`=max(year(SUPP_DATE)),.groups='drop') %>%
+  ungroup() %>% unique %>% datatable
+```
+
+# Overall Weekly Plots by class
+
+```{r}
+disp.by.class <- disp %>% group_by(class, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='class', 
+              values_from='n',
+              values_fill=0) 
+disp.by.class <- xts((disp.by.class %>% select(-c('SUPP_DATE'))),
+                     as.Date(disp.by.class$SUPP_DATE))
+
+disp.by.class %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+
+disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+
+# Overall Monthly Plots by class
+```{r}
+disp.by.class <- disp %>% group_by(class, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='class', 
+              values_from='n',
+              values_fill=0) 
+disp.by.class <- xts((disp.by.class %>% select(-c('SUPP_DATE'))),
+                     as.Date(disp.by.class$SUPP_DATE))
+
+disp.by.class %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+
+disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),] %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+# ATC plots
+```{r}
+supp.disp <- disp %>% filter(ATC_CODE %in% sup.meds[-3]) %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+supp.disp <- xts((supp.disp %>% select(-c('SUPP_DATE'))),
+                     as.Date(supp.disp$SUPP_DATE))
+
+supp.disp[index(supp.disp)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='Supportive meds (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(supp.disp),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+a03 <- disp %>% filter(ATC_CODE =='A03FA01') %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+a03 <- xts((a03 %>% select(-c('SUPP_DATE'))),
+                     as.Date(a03$SUPP_DATE))
+
+a03[index(a03)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='A03FA01 [supportive] (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(a03),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+```{r}
+a04aa01.disp <- disp %>% filter(grepl('^A04AA01',ATC_CODE)) %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+a04aa01.disp <- xts((a04aa01.disp %>% select(-c('SUPP_DATE'))),
+                     as.Date(a04aa01.disp$SUPP_DATE))
+
+a04aa01.disp[index(a04aa01.disp)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='Supportive meds (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(a04aa01.disp),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+a04aa.disp <- disp %>% filter(grepl('^A04AA[05][2-5]',ATC_CODE)) %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+a04aa.disp <- xts((a04aa.disp %>% select(-c('SUPP_DATE'))),
+                     as.Date(a04aa.disp$SUPP_DATE))
+
+a04aa.disp[index(a04aa.disp)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='Supportive meds (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(a04aa.disp),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+l02.disp.A <- disp %>% filter(ATC_CODE %in% l02.meds[c(1,2,4,6)]) %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+l02.disp.A <- xts((l02.disp.A %>% select(-c('SUPP_DATE'))),
+                     as.Date(l02.disp.A$SUPP_DATE))
+
+l02.disp.A[index(l02.disp.A)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='L02 Meds (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(l02.disp.A),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+```{r}
+l02.disp.B <- disp %>% filter(ATC_CODE %in% l02.meds[-c(1,2,4,6)]) %>% group_by(ATC_CODE, SUPP_DATE) %>% 
+  count %>% ungroup %>%
+  pivot_wider(id_cols='SUPP_DATE', 
+              names_from='ATC_CODE', 
+              values_from='n',
+              values_fill=0) 
+l02.disp.B <- xts((l02.disp.B %>% select(-c('SUPP_DATE'))),
+                     as.Date(l02.disp.B$SUPP_DATE))
+
+l02.disp.B[index(l02.disp.B)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='L02 Meds (by week)') %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(l02.disp.B),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+```
+
+# (p)Lots and (p)lots of L01 (plots)
+
+<details>
+<summary>Click to expand</summary>
+```{r}
+for(atc in l01.meds){
+  l01.disp <- disp %>% filter(ATC_CODE == atc) %>% group_by(SUPP_DATE) %>% 
+    count %>% ungroup 
+  l01.disp <- xts((l01.disp %>% select(-c('SUPP_DATE'))),
+                       as.Date(l01.disp$SUPP_DATE))
+  
+  l01.disp[index(l01.disp)>as.Date('2019-01-01'),] %>% apply.monthly(mean) %>% plot.xts(main=paste0(atc, ' daily dispensings (by month)')) %>% print()
+}
+```
+</details>
