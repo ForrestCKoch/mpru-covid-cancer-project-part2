@@ -100,3 +100,24 @@ initialize.dataset <- function(steps.to.run=c(1)){
     }
 
 }
+
+drugmap.path <- '../data/supplemental/pbs-item-drug-map.csv'
+drugmap.url <- 'https://www.pbs.gov.au/statistics/dos-and-dop/files/pbs-item-drug-map.csv'
+download.drugmap <- function(path=drugmap.path, url=drugmap.url){
+    if(!dir.exists('../data/supply-files')){
+        stop("Please run this function from the repository root")
+    }
+
+    if(!dir.exists('../data/supplemental')){
+        dir.create('../data/supplemental', showWarnings=F)
+    }
+    
+    download.file(url, path)
+}
+
+load.drugmap <- function(path=drugmap.path, url=drugmap.url, update.drugmap=F){
+    # if(!file.exists(path) | update.drugmap){
+    #     download.drugmap(path=path, url=url)
+    # }
+    read.csv(path)
+}
