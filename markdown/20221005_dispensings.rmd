@@ -13,7 +13,7 @@ library(lubridate)
 source('../src/data-preprocessing.R')
 knitr::opts_chunk$set(echo = F)
 
-meta <- read.csv('../../data/ldrugs_classifications_080222.csv') %>% 
+meta <- read.csv('../supplemental-data/ldrugs_classifications_20221012.csv') %>% 
   column_to_rownames('item') %>%
   mutate(exp.class=paste0(class,'-',main.route))
 disp <- readRDS('../../data/derivatives/raw-entries_l01-l02-supps_2012-2022.rds') %>%
@@ -29,9 +29,9 @@ disp %<>% mutate(class=ifelse(
 list.files()
 ```
 
-# Item codes not included in the classification sheet
+<!-- # Item codes not included in the classification sheet -->
 
-```{r}
+```{r, eval=F, include=F}
 disp %>% filter(is.na(class)) %>% 
   select(ITEM_CODE, ATC_CODE, SUPP_DATE) %>%
   group_by(ATC_CODE, ITEM_CODE) %>% 
@@ -39,13 +39,13 @@ disp %>% filter(is.na(class)) %>%
   ungroup() %>% unique %>% 
   inner_join(.,load.drugmap(paste0('../',drugmap.path)) %>% 
                select(ITEM_CODE, DRUG_NAME, FORM.STRENGTH),by='ITEM_CODE') %>%
-  select(c('DRUG_NAME','ATC_CODE','FORM.STRENGTH','ITEM_CODE','First','Last')) %>% datatable #write.csv(.,'../results/l01-missing-classification.csv',row.names=F) 
+  select(c('DRUG_NAME','ATC_CODE','FORM.STRENGTH','ITEM_CODE','First','Last')) %>% datatable #write.csv(.,'../supplemental-data/l01-missing-classification.csv',row.names=F) 
 ```
 
-# Overall Weekly Plots by class
+# L01/L02 Weekly Plots by class
 
 ```{r}
-disp.by.class <- disp %>% group_by(class, SUPP_DATE) %>% 
+disp.by.class <- disp  %>% group_by(class, SUPP_DATE) %>% 
   count %>% ungroup %>%
   pivot_wider(id_cols='SUPP_DATE', 
               names_from='class', 
@@ -54,36 +54,40 @@ disp.by.class <- disp %>% group_by(class, SUPP_DATE) %>%
 disp.by.class <- xts((disp.by.class %>% select(-c('SUPP_DATE'))),
                      as.Date(disp.by.class$SUPP_DATE))
 
-disp.by.class %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
-addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+disp.by.class[,-c(5,6)] %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class[,-c(5,6)]),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
 ```
 
 ```{r}
 
-disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
-addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),-c(5,6)] %>% apply.weekly(mean) %>% plot.xts(main='Average daily dispensings (by week)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class[,-c(5,6)]),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
 ```
 
-
-# Overall Monthly Plots by class
+# Seratonin Antagonists Only
 ```{r}
-disp.by.class <- disp %>% group_by(class, SUPP_DATE) %>% 
-  count %>% ungroup %>%
-  pivot_wider(id_cols='SUPP_DATE', 
-              names_from='class', 
-              values_from='n',
-              values_fill=0) 
-disp.by.class <- xts((disp.by.class %>% select(-c('SUPP_DATE'))),
-                     as.Date(disp.by.class$SUPP_DATE))
+disp.by.class[index(disp.by.class)>as.Date('2019-01-01'),'Seratonin antagonists'] %>% apply.weekly(mean) %>% plot.xts(main='Seratonin antagonists (by week)')
+```
 
-disp.by.class %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
-addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+# All Supportive Meds
+```{r}
+all.supp.disp <- disp %>% filter(ATC_CODE %in% sup.meds) %>% group_by(SUPP_DATE) %>% 
+  count %>% ungroup 
+all.supp.disp <- xts(all.supp.disp$n,all.supp.disp$SUPP_DATE)
+
+all.supp.disp[index(all.supp.disp)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='All Supportive meds (by week)')
+```
+
+# L01/L02 Monthly Plots by class
+```{r}
+disp.by.class[,-c(5,6)] %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class[,-c(5,6)]),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
 ```
 
 ```{r}
 
-disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),] %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
-addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
+disp.by.class[index(disp.by.class)>as.Date('2020-01-01'),-c(5,6)] %>% apply.monthly(mean) %>% plot.xts(main='Average daily dispensings (by month)', ylim=c(0,400)) %>% invisible()
+addLegend(legend.loc='topleft',legend.names=colnames(disp.by.class[,-c(5,6)]),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
 ```
 
 # ATC plots
@@ -168,19 +172,6 @@ l02.disp.B <- xts((l02.disp.B %>% select(-c('SUPP_DATE'))),
 
 l02.disp.B[index(l02.disp.B)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='L02 Meds (by week)') %>% invisible()
 addLegend(legend.loc='topleft',legend.names=colnames(l02.disp.B),lty=rep(1,9),lwd=rep(2,9),col=c(1:9),ncol=3, cex=0.8)
-```
-# Seratonin Antagonists Only
-```{r}
-disp.by.class[index(disp.by.class)>as.Date('2019-01-01'),'Seratonin antagonists'] %>% apply.weekly(mean) %>% plot.xts(main='Seratonin antagonists (by week)')
-```
-
-# All Supportive Meds
-```{r}
-all.supp.disp <- disp %>% filter(ATC_CODE %in% sup.meds) %>% group_by(SUPP_DATE) %>% 
-  count %>% ungroup 
-all.supp.disp <- xts(all.supp.disp$n,all.supp.disp$SUPP_DATE)
-
-all.supp.disp[index(all.supp.disp)>as.Date('2019-01-01'),] %>% apply.weekly(mean) %>% plot.xts(main='All Supportive meds (by week)')
 ```
 
 
