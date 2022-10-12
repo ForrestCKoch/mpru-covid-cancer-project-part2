@@ -18,7 +18,8 @@ meta <- read.csv('../supplemental-data/ldrugs_classifications_20221012.csv') %>%
   mutate(exp.class=paste0(class,'-',main.route))
 disp <- readRDS('../../data/derivatives/raw-entries_l01-l02-supps_2012-2022.rds') %>%
   filter(SUPP_DATE >= as.Date('2016-06-01'),
-         SUPP_DATE <  as.Date('2022-06-01'))
+         SUPP_DATE <  as.Date('2022-06-01'),
+         ATC_CODE != 'L01XC10')
 
 disp %<>% mutate(class=ifelse(
   ATC_CODE %in% sup.meds, 'Supportive', ifelse(
@@ -37,9 +38,15 @@ disp %>% filter(is.na(class)) %>%
   group_by(ATC_CODE, ITEM_CODE) %>% 
   summarize(Last=max(SUPP_DATE),First=min(SUPP_DATE),.groups='drop') %>%
   ungroup() %>% unique %>% 
-  inner_join(.,load.drugmap(paste0('../',drugmap.path)) %>% 
-               select(ITEM_CODE, DRUG_NAME, FORM.STRENGTH),by='ITEM_CODE') %>%
   select(c('DRUG_NAME','ATC_CODE','FORM.STRENGTH','ITEM_CODE','First','Last')) %>% datatable #write.csv(.,'../supplemental-data/l01-missing-classification.csv',row.names=F) 
+k <- disp %>% filter(class=='Chemotherapy-Parenteral') %>% inner_join(.,load.drugmap(paste0('../',drugmap.path)) %>% 
+               select(ITEM_CODE, DRUG_NAME, FORM.STRENGTH),by='ITEM_CODE') %>% 
+  group_by(SUPP_DATE, FORM.STRENGTH) %>% count()
+
+k3 <- disp %>% filter(class=='Chemotherapy-Parenteral') %>% inner_join(.,load.drugmap(paste0('../',drugmap.path)) %>% 
+               select(ITEM_CODE, DRUG_NAME, FORM.STRENGTH),by='ITEM_CODE') %>% 
+  filter(FORM.STRENGTH %in% top.diffs)
+
 ```
 
 # L01/L02 Weekly Plots by class

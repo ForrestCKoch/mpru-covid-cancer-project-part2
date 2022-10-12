@@ -67,7 +67,7 @@ l01.meds <- c('L01AA01','L01AA02','L01AA03','L01AA06','L01AA09',
               'L01EL01','L01EL02','L01EM01','L01EX01','L01EX02',
               'L01EX03','L01EX07','L01EX08','L01EX09','L01EX10',
               'L01XA01','L01XA02','L01XA03','L01XC02','L01XC03',
-              'L01XC06','L01XC07','L01XC08','L01XC10','L01XC11',
+              'L01XC06','L01XC07','L01XC08','L01XC11',#'L01XC10', Removed as ofatumumab is also listed for MS
               'L01XC12','L01XC13','L01XC14','L01XC15','L01XC17',
               'L01XC18','L01XC19','L01XC24','L01XC26','L01XC28',
               'L01XC31','L01XC32','L01XE11','L01XG01','L01XG02',
