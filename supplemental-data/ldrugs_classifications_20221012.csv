@@ -1,0 +1,714 @@
+item,route,main.route,class,dn,FORM_STRENGTH,atc
+01622J,Oral,Oral,Chemotherapy,METHOTREXATE,Tablet 2.5 mg,L01BA01
+01623K,Oral,Oral,Chemotherapy,METHOTREXATE,Tablet 10 mg,L01BA01
+02272N,Oral,Oral,Chemotherapy,METHOTREXATE,Tablet 10 mg,L01BA01
+04319H,IV,Parenteral,Chemotherapy,CISPLATIN,I.V. injection 50 mg in 50 mL,L01XA01
+10148D,IV,Parenteral,Chemotherapy,DOCETAXEL,Solution concentrate for I.V. infusion 160 mg in 16 mL,L01CD02
+01598D,Oral,Oral,Chemotherapy,MERCAPTOPURINE,Tablet containing mercaptopurine monohydrate 50 mg,L01BB02
+08820F,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 20 mg,L01AX03
+09361Q,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 140 mg,L01AX03
+10062N,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 180 mg,L01AX03
+08821G,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 100 mg,L01AX03
+08380C,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 100 mg,L01AX03
+04327R,Injection,Parenteral,Chemotherapy,CYCLOPHOSPHAMIDE,Powder for injection 1 g (anhydrous),L01AA01
+04375G,Injection,Parenteral,Chemotherapy,EPIRUBICIN,Solution for injection containing epirubicin hydrochloride 200 mg in 100 mL,L01DB03
+04394G,Injection,Parenteral,Chemotherapy,FLUOROURACIL,Injection 5000 mg in 100 mL,L01BC02
+04567J,IV,Parenteral,Chemotherapy,PACLITAXEL,Solution concentrate for I.V. infusion 150 mg in 25 mL,L01CD01
+07246J,IV,Parenteral,Chemotherapy,GEMCITABINE,Solution concentrate for I.V. infusion 500 mg (as hydrochloride) in 50 mL,L01BC05
+07253R,IV,Parenteral,Chemotherapy,OXALIPLATIN,Solution concentrate for I.V. infusion 50 mg in 10 mL,L01XA03
+08362D,Oral,Oral,Chemotherapy,CAPECITABINE,Tablet 500 mg,L01BC06
+07226H,Injection,Parenteral,Chemotherapy,CYCLOPHOSPHAMIDE,Powder for injection 1 g (anhydrous),L01AA01
+07254T,IV,Parenteral,Chemotherapy,PACLITAXEL,Solution concentrate for I.V. infusion 150 mg in 25 mL,L01CD01
+07222D,IV,Parenteral,Chemotherapy,CARBOPLATIN,Solution for I.V. injection 450 mg in 45 mL,L01XA02
+07255W,IV,Parenteral,Chemotherapy,PEMETREXED,Powder for I.V. infusion 100 mg (as disodium),L01BA04
+02395C,Injection,Parenteral,Chemotherapy,METHOTREXATE,Injection 50 mg in 2 mL vial,L01BA01
+09544H,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+10881Q,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+04309T,IV,Parenteral,Chemotherapy,CARBOPLATIN,Solution for I.V. injection 450 mg in 45 mL,L01XA02
+03093T,Oral,Oral,Chemotherapy,HYDROXYCARBAMIDE (HYDROXYUREA),Capsule 500 mg,L01XX05
+04542C,IV,Parenteral,Chemotherapy,OXALIPLATIN,Solution concentrate for I.V. infusion 50 mg in 10 mL,L01XA03
+04400N,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+10026Q,Oral,Oral,Chemotherapy,CYCLOPHOSPHAMIDE,Tablet 50 mg (as monohydrate),L01AA01
+04706Q,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+01266P,Oral,Oral,Chemotherapy,CYCLOPHOSPHAMIDE,Tablet 50 mg (anhydrous),L01AA01
+04620E,IV,Parenteral,Chemotherapy,VINORELBINE,Solution for I.V. infusion 10 mg (as tartrate) in 1 mL,L01CA04
+09010F,Oral,Oral,Chemotherapy,VINORELBINE,Capsule 30 mg (as tartrate),L01CA04
+07239B,Injection,Parenteral,Chemotherapy,FLUOROURACIL,Injection 5000 mg in 100 mL,L01BC02
+07234R,Injection,Parenteral,Chemotherapy,FLUOROURACIL,Injection 5000 mg in 100 mL,L01BC02
+07237X,IV,Parenteral,Chemotherapy,ETOPOSIDE,Powder for I.V. infusion 100 mg (as phosphate),L01CB01
+07224F,IV,Parenteral,Chemotherapy,CISPLATIN,I.V. injection 50 mg in 50 mL,L01XA01
+07229L,IV,Parenteral,Chemotherapy,DOXORUBICIN,Solution for I.V. injection or intravesical administration containing doxorubicin hydrochloride 10 mg in 5 mL single dose vial,L01DB01
+04361M,IV,Parenteral,Chemotherapy,DOXORUBICIN,Solution for I.V. injection or intravesical administration containing doxorubicin hydrochloride 10 mg in 5 mL single dose vial,L01DB01
+04632T,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+04639E,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+04703M,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10475H,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+10424P,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+08769M,Oral,Oral,Targeted,GEFITINIB,Tablet 250 mg,L01EB01
+07262F,IV,Parenteral,Chemotherapy,VINCRISTINE,I.V. injection containing vincristine sulfate 1 mg in 1 mL,L01CA02
+07258B,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+04403R,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+04439P,IV,Parenteral,Chemotherapy,GEMCITABINE,Solution concentrate for I.V. infusion 500 mg (as hydrochloride) in 50 mL,L01BC05
+10158P,IV,Parenteral,Chemotherapy,DOCETAXEL,Solution concentrate for I.V. infusion 160 mg in 16 mL,L01CD02
+07231N,Injection,Parenteral,Chemotherapy,EPIRUBICIN,Solution for injection containing epirubicin hydrochloride 200 mg in 100 mL,L01DB03
+01163F,Oral,Oral,Chemotherapy,CHLORAMBUCIL,Tablet 2 mg,L01AA02
+04615X,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+04619D,IV,Parenteral,Chemotherapy,VINCRISTINE,I.V. injection containing vincristine sulfate 1 mg in 1 mL,L01CA02
+11213E,Oral,Oral,Targeted,IBRUTINIB,Capsule 140 mg,L01EL01
+01389D,Oral,Oral,Chemotherapy,ETOPOSIDE,Capsule 100 mg,L01CB01
+07257Y,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+02547C,Oral,Oral,Chemotherapy,MELPHALAN,Tablet 2 mg,L01AA03
+10193L,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+04451G,IV,Parenteral,Chemotherapy,IRINOTECAN,I.V. injection containing irinotecan hydrochloride trihydrate 100 mg in 5 mL,L01CE02
+04431F,Injection,Parenteral,Chemotherapy,FLUOROURACIL,Injection 5000 mg in 100 mL,L01BC02
+07263G,IV,Parenteral,Chemotherapy,VINORELBINE,Solution for I.V. infusion 10 mg (as tartrate) in 1 mL,L01CA04
+09362R,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 140 mg,L01AX03
+07238Y,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+04428C,IV,Parenteral,Chemotherapy,ETOPOSIDE,Powder for I.V. infusion 100 mg (as phosphate),L01CB01
+04433H,Injection,Parenteral,Chemotherapy,BLEOMYCIN,"Powder for injection containing bleomycin sulfate 15,000 I.U.",L01DC01
+11553C,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+07249M,IV,Parenteral,Chemotherapy,IRINOTECAN,I.V. injection containing irinotecan hydrochloride trihydrate 100 mg in 5 mL,L01CE02
+04600D,IV,Parenteral,Chemotherapy,PEMETREXED,Powder for I.V. infusion 100 mg (as disodium),L01BA04
+10618W,Oral,Oral,Targeted,RUXOLITINIB,Tablet 20 mg,L01EJ01
+10617T,Oral,Oral,Targeted,RUXOLITINIB,Tablet 20 mg,L01EJ01
+10391X,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10267J,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+10333W,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+10401K,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+07268M,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+11106M,Oral,Oral,Targeted,NINTEDANIB,Capsule 150 mg,L01EX09
+10179R,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11419B,Oral,Oral,Targeted,IBRUTINIB,Capsule 140 mg,L01EL01
+10775D,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+10748Q,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+01128J,Oral,Oral,Chemotherapy,BUSULFAN,Tablet 2 mg,L01AB01
+07244G,Injection,Parenteral,Chemotherapy,BLEOMYCIN,"Powder for injection containing bleomycin sulfate 15,000 I.U.",L01DC01
+08361C,Oral,Oral,Chemotherapy,CAPECITABINE,Tablet 150 mg,L01BC06
+09148L,Oral,Oral,Targeted,LAPATINIB,Tablet 250 mg (as ditosilate monohydrate),L01EH01
+10381J,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10383L,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10402L,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+07230M,IV,Parenteral,Chemotherapy,DOXORUBICIN HYDROCHLORIDE (AS PEGYLATED LIPOSOMAL),Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL,L01DB01
+10140Q,IV,Parenteral,Chemotherapy,ERIBULIN,Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL,L01XX41
+11264W,Oral,Oral,Targeted,GEFITINIB,Tablet 250 mg,L01EB01
+11622Q,Oral,Oral,Targeted,OSIMERTINIB,Tablet 80 mg,L01EB04
+02985D,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+04614W,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+10760H,Injection,Parenteral,Chemotherapy,BENDAMUSTINE,Powder for injection containing bendamustine hydrochloride 100 mg,L01AA09
+07274W,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+04393F,IV,Parenteral,Chemotherapy,FLUDARABINE,Solution for I.V. injection 50 mg fludarabine phosphate in 2 mL,L01BB05
+11162L,Oral,Oral,Targeted,IDELALISIB,Tablet 150 mg,L01EM01
+10150F,IV,Parenteral,Chemotherapy,NANOPARTICLE ALBUMIN-BOUND PACLITAXEL,Powder for I.V. injection containing 100 mg paclitaxel,L01CD01
+07223E,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+07273T,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+07240C,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+10334X,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+10308M,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+10965D,Oral,Oral,Targeted,LENVATINIB,Capsule 10 mg (as mesilate),L01EX08
+10952K,Oral,Oral,Targeted,LENVATINIB,Capsule 4 mg (as mesilate),L01EX08
+11158G,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11153B,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+07236W,Injection,Parenteral,Chemotherapy,CABAZITAXEL,"Concentrated injection 60 mg (as acetone solvate) in 1.5 mL, with diluent",L01CD04
+08381D,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 250 mg,L01AX03
+08819E,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 5 mg,L01AX03
+07275X,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+10382K,Oral,Oral,Targeted,TRAMETINIB,Tablet 2 mg,L01EE01
+02846T,Oral,Oral,Targeted,DABRAFENIB,Capsule 75 mg (as mesilate),L01EC02
+10405P,Oral,Oral,Targeted,TRAMETINIB,Tablet 2 mg,L01EE01
+10003L,Oral,Oral,Targeted,DABRAFENIB,Capsule 75 mg (as mesilate),L01EC02
+10593M,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+04650R,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+07267L,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11956G,IV,Parenteral,Targeted,TRASTUZUMAB EMTANSINE,Powder for I.V. infusion 100 mg,L01XC14
+07227J,Injection,Parenteral,Chemotherapy,CYTARABINE,Injection 100 mg in 5 mL vial,L01BC01
+07251P,IV,Parenteral,Chemotherapy,METHOTREXATE,Solution concentrate for I.V. infusion 5000 mg in 50 mL vial,L01BA01
+04448D,IV,Parenteral,Chemotherapy,IFOSFAMIDE,Powder for I.V. injection 1 g,L01AA06
+11309F,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+10615Q,Oral,Oral,Targeted,RUXOLITINIB,Tablet 15 mg,L01EJ01
+10616R,Oral,Oral,Targeted,RUXOLITINIB,Tablet 5 mg,L01EJ01
+10927D,Oral,Oral,Targeted,RUXOLITINIB,Tablet 10 mg,L01EJ01
+11435W,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+02641B,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 200 mg in 40 mL,L01XC11
+11494Y,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+02638W,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 200 mg in 40 mL,L01XC11
+01396L,Oral,Oral,Chemotherapy,ETOPOSIDE,Capsule 50 mg,L01CB01
+07242E,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+10265G,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+10165B,IV,Parenteral,Chemotherapy,NANOPARTICLE ALBUMIN-BOUND PACLITAXEL,Powder for I.V. injection containing 100 mg paclitaxel,L01CD01
+09422X,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+10459L,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+10132G,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+10540R,Oral,Oral,Targeted,AXITINIB,Tablet 5 mg,L01EK01
+10572K,Oral,Oral,Targeted,AXITINIB,Tablet 1 mg,L01EK01
+10539Q,Oral,Oral,Targeted,AXITINIB,Tablet 1 mg,L01EK01
+11159H,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11157F,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11369J,Oral,Oral,Targeted,CABOZANTINIB,Tablet 40 mg,L01EX07
+11368H,Oral,Oral,Targeted,CABOZANTINIB,Tablet 40 mg,L01EX07
+10172J,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+10180T,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+10423N,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+01309X,Oral,Oral,Targeted,NILOTINIB,Capsule 150 mg (as hydrochloride monohydrate),L01EA03
+07261E,IV,Parenteral,Chemotherapy,VINBLASTINE,Solution for I.V. injection containing vinblastine sulfate 10 mg in 10 mL,L01CA01
+11397W,Oral,Oral,Targeted,RIBOCICLIB,Tablet 200 mg,L01EF02
+11385F,Oral,Oral,Targeted,RIBOCICLIB,Tablet 200 mg,L01EF02
+11386G,Oral,Oral,Targeted,RIBOCICLIB,Tablet 200 mg,L01EF02
+10069Y,IV,Parenteral,Targeted,PANITUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC08
+07266K,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+07243F,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+07250N,IV,Parenteral,Chemotherapy,METHOTREXATE,Solution concentrate for I.V. infusion 5000 mg in 50 mL vial,L01BA01
+11143L,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11906P,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+08378Y,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 5 mg,L01AX03
+10120P,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+10114H,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+10121Q,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+07225G,Injection,Parenteral,Chemotherapy,CLADRIBINE,Injection 10 mg in 5 mL,L01BB04
+04436L,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+04731B,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+10014C,Oral,Oral,Targeted,ERLOTINIB,Tablet 150 mg (as hydrochloride),L01EB02
+11792P,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11297N,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+07233Q,IV,Parenteral,Chemotherapy,FLUDARABINE,Solution for I.V. injection 50 mg fludarabine phosphate in 2 mL,L01BB05
+04613T,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11630D,Oral,Oral,Targeted,VENETOCLAX,Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14  tablets venetoclax 100 mg,L01XX52
+11911X,IV,Parenteral,Immunotherapy,DURVALUMAB,Solution concentrate for I.V. infusion 120 mg in 2.4 mL,L01XC28
+09417P,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+04326Q,Injection,Parenteral,Chemotherapy,CLADRIBINE,Injection 10 mg in 5 mL,L01BB04
+11524M,Oral,Oral,Chemotherapy,TRIFLURIDINE + TIPIRACIL,Tablet containing 20 mg trifluridine with 8.19 mg tipiracil (as hydrochloride),L01BC59
+09597D,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+09598E,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+01233X,Oral,Oral,Chemotherapy,TIOGUANINE,Tablet 40 mg,L01BB03
+07252Q,Injection,Parenteral,Chemotherapy,MITOZANTRONE,Injection 20 mg (as hydrochloride) in 10 mL,L01DB07
+11284X,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11277M,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+04531L,IV,Parenteral,Chemotherapy,NANOPARTICLE ALBUMIN-BOUND PACLITAXEL,Powder for I.V. injection containing 100 mg paclitaxel,L01CD01
+07270P,IV,Parenteral,Chemotherapy,NANOPARTICLE ALBUMIN-BOUND PACLITAXEL,Powder for I.V. injection containing 100 mg paclitaxel,L01CD01
+11492W,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+06100C,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+06138C,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+08379B,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 20 mg,L01AX03
+04364Q,IV,Parenteral,Chemotherapy,DOXORUBICIN HYDROCHLORIDE (AS PEGYLATED LIPOSOMAL),Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL,L01DB01
+10576P,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+10041L,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+10043N,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+09419R,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+04429D,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+02030W,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+11261Q,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+10742J,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+10322G,Oral,Oral,Targeted,CRIZOTINIB,Capsule 250 mg,L01ED01
+11226W,Oral,Oral,Targeted,ALECTINIB,Capsule 150 mg,L01ED03
+01818Q,Injection,Parenteral,Chemotherapy,METHOTREXATE,Injection 50 mg in 2 mL vial,L01BA01
+11259N,Oral,Oral,Targeted,ERLOTINIB,Tablet 150 mg (as hydrochloride),L01EB02
+04357H,Injection,Parenteral,Chemotherapy,CYTARABINE,Injection 100 mg in 5 mL vial,L01BC01
+11552B,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+05444M,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11788K,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+02837H,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+11250D,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+04512L,IV,Parenteral,Chemotherapy,METHOTREXATE,Solution concentrate for I.V. infusion 5000 mg in 50 mL vial,L01BA01
+10703H,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+09114Q,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+09113P,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11752M,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+10513H,IV,Parenteral,Targeted,PANITUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC08
+10699D,Injection,Parenteral,Chemotherapy,ARSENIC,Injection concentrate containing arsenic trioxide 10 mg in 10 mL,L01XX27
+10020J,Oral,Oral,Targeted,ERLOTINIB,Tablet 100 mg (as hydrochloride),L01EB02
+10019H,Oral,Oral,Targeted,ERLOTINIB,Tablet 100 mg (as hydrochloride),L01EB02
+11260P,Oral,Oral,Targeted,ERLOTINIB,Tablet 100 mg (as hydrochloride),L01EB02
+10763L,Injection,Parenteral,Chemotherapy,BENDAMUSTINE,Powder for injection containing bendamustine hydrochloride 100 mg,L01AA09
+11457B,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+10720F,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+10493G,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+10745M,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+10581X,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10595P,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10262D,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+10614P,Oral,Oral,Targeted,RUXOLITINIB,Tablet 5 mg,L01EJ01
+09184J,Oral,Oral,Chemotherapy,FLUDARABINE,Tablet containing fludarabine phosphate 10 mg,L01BB05
+10743K,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+11100F,Oral,Oral,Targeted,NINTEDANIB,Capsule 100 mg,L01EX09
+10082P,IV,Parenteral,Targeted,PANITUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC08
+10719E,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+09380Q,Oral,Oral,Targeted,SORAFENIB,Tablet 200 mg (as tosilate),L01EX02
+10226F,Oral,Oral,Targeted,SORAFENIB,Tablet 200 mg (as tosilate),L01EX02
+10237T,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 1000 mg in 50 mL,L01XC10
+10239X,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 1000 mg in 50 mL,L01XC10
+11784F,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+02819J,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+11257L,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+11632F,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+10403M,Oral,Oral,Targeted,TRAMETINIB,Tablet 500 micrograms,L01EE01
+02438H,Oral,Oral,Chemotherapy,TEMOZOLOMIDE,Capsule 180 mg,L01AX03
+11089P,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11067L,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11086L,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+04618C,IV,Parenteral,Chemotherapy,VINBLASTINE,Solution for I.V. injection containing vinblastine sulfate 10 mg in 10 mL,L01CA01
+10025P,Oral,Oral,Targeted,ERLOTINIB,Tablet 150 mg (as hydrochloride),L01EB02
+08898H,IV,Parenteral,Chemotherapy,CARMUSTINE,"Implants 7.7 mg, 8",L01AD01
+02201W,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+04376H,Injection,Parenteral,Chemotherapy,CABAZITAXEL,"Concentrated injection 60 mg (as acetone solvate) in 1.5 mL, with diluent",L01CD04
+09611W,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11749J,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11152Y,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11915D,IV,Parenteral,Immunotherapy,DURVALUMAB,Solution concentrate for I.V. infusion 120 mg in 2.4 mL,L01XC28
+10282E,IV,Parenteral,Targeted,TRASTUZUMAB EMTANSINE,Powder for I.V. infusion 100 mg,L01XC14
+10281D,IV,Parenteral,Targeted,TRASTUZUMAB EMTANSINE,Powder for I.V. infusion 100 mg,L01XC14
+11507P,Oral,Oral,Chemotherapy,TRIFLURIDINE + TIPIRACIL,Tablet containing 15 mg trifluridine with 6.14 mg tipiracil (as hydrochloride),L01BC59
+07248L,IV,Parenteral,Chemotherapy,IFOSFAMIDE,Powder for I.V. injection 1 g,L01AA06
+11229B,Injection,Parenteral,Chemotherapy,CARFILZOMIB,Powder for injection 30 mg,L01XG02
+11698Q,Oral,Oral,Targeted,PALBOCICLIB,Capsule 125 mg,L01EF01
+04502Y,IV,Parenteral,Chemotherapy,METHOTREXATE,Solution concentrate for I.V. infusion 5000 mg in 50 mL vial,L01BA01
+11927R,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+10269L,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11638M,Oral,Oral,Targeted,LENVATINIB,Capsule 4 mg (as mesilate),L01EX08
+11456Y,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+10214N,Oral,Oral,Chemotherapy,MERCAPTOPURINE,"Oral suspension containing mercaptopurine monohydrate 20 mg per mL, 100 mL",L01BB02
+11900H,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+09112N,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+09111M,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11787J,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+07247K,IV,Parenteral,Chemotherapy,IDARUBICIN,Solution for I.V. injection containing idarubicin hydrochloride 5 mg in 5 mL,L01DB06
+11543M,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+01416M,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+01354G,Oral,Oral,Targeted,DASATINIB,Tablet 20 mg,L01EA02
+10418H,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+12199C,Oral,Oral,Targeted,VENETOCLAX,Tablet 100 mg,L01XX52
+11532Y,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+04732C,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+02396D,Injection,Parenteral,Chemotherapy,METHOTREXATE,Injection 5 mg in 2 mL vial,L01BA01
+02029T,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+02035D,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01XE11
+10268K,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+11771M,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11878E,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11627Y,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11644W,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+11926Q,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11929W,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+10144X,IV,Parenteral,Chemotherapy,ERIBULIN,Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL,L01XX41
+10133H,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+09009E,Oral,Oral,Chemotherapy,VINORELBINE,Capsule 20 mg (as tartrate),L01CA04
+11639N,Oral,Oral,Targeted,VENETOCLAX,Tablet 100 mg,L01XX52
+10589H,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10597R,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+10764M,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11462G,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11230C,Injection,Parenteral,Chemotherapy,CARFILZOMIB,Powder for injection 30 mg,L01XG02
+10682F,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+10916M,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11359W,Oral,Oral,Targeted,AFATINIB,Tablet 40 mg,L01EB03
+11348G,Oral,Oral,Targeted,AFATINIB,Tablet 30 mg,L01EB03
+04312Y,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+04712B,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+11951B,IV,Parenteral,Targeted,TRASTUZUMAB EMTANSINE,Powder for I.V. infusion 100 mg,L01XC14
+10131F,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+10556N,Oral,Oral,Targeted,AXITINIB,Tablet 5 mg,L01EK01
+09177B,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+09175X,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+07269N,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+07271Q,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+04435K,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+07260D,IV,Parenteral,Chemotherapy,TOPOTECAN,Powder for I.V. infusion 4 mg (as hydrochloride),L01CE01
+11695M,IV,Parenteral,Immunotherapy,AVELUMAB,Solution concentrate for I.V. infusion 200 mg in 10 mL,L01XC31
+11671G,IV,Parenteral,Immunotherapy,AVELUMAB,Solution concentrate for I.V. infusion 200 mg in 10 mL,L01XC31
+10710Q,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+10619X,Oral,Oral,Targeted,RUXOLITINIB,Tablet 15 mg,L01EJ01
+09418Q,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+09421W,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+09420T,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+11150W,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11360X,Oral,Oral,Targeted,CABOZANTINIB,Tablet 60 mg,L01EX07
+11779Y,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11785G,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11138F,Oral,Oral,Chemotherapy,VORINOSTAT,Capsule 100 mg,L01XH01
+11141J,Oral,Oral,Chemotherapy,VORINOSTAT,Capsule 100 mg,L01XH01
+11651F,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11661R,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11789L,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11778X,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11056X,Oral,Oral,Targeted,CERITINIB,Capsule 150 mg,L01ED02
+11076Y,Oral,Oral,Targeted,VEMURAFENIB,Tablet 240 mg,L01EC01
+11074W,Oral,Oral,Targeted,COBIMETINIB,Tablet 20 mg,L01EE02
+10436G,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+11347F,Oral,Oral,Targeted,AFATINIB,Tablet 40 mg,L01EB03
+11704B,Injection,Parenteral,Chemotherapy,BLEOMYCIN,"Powder for injection containing bleomycin sulfate 15,000 I.U. in 1 vial",L01DC01
+11626X,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+10885X,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+10407R,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11434T,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+09342Q,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+10047T,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+11160J,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11628B,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+11642R,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12157W,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+09490L,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+11256K,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+11699R,Oral,Oral,Targeted,PALBOCICLIB,Capsule 75 mg,L01EF01
+10473F,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+11374P,Oral,Oral,Targeted,CABOZANTINIB,Tablet 20 mg,L01EX07
+04617B,IV,Parenteral,Chemotherapy,TOPOTECAN,Powder for I.V. infusion 4 mg (as hydrochloride),L01CE01
+10504W,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+11775R,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+07259C,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11070P,Oral,Oral,Targeted,VISMODEGIB,Capsule 150 mg,L01XJ01
+07265J,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11700T,Oral,Oral,Targeted,PALBOCICLIB,Capsule 100 mg,L01EF01
+10324J,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+07256X,IV,Parenteral,Chemotherapy,RALTITREXED,Powder for I.V. infusion 2 mg in single use vial,L01BA03
+10508C,IV,Parenteral,Targeted,PANITUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC08
+10744L,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+10913J,Oral,Oral,Targeted,RUXOLITINIB,Tablet 10 mg,L01EJ01
+11753N,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+04440Q,IV,Parenteral,Chemotherapy,IDARUBICIN,Solution for I.V. injection containing idarubicin hydrochloride 5 mg in 5 mL,L01DB06
+11782D,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+09179D,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+12122B,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+10115J,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11199K,IV,Parenteral,Chemotherapy,ERIBULIN,Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL,L01XX41
+10135K,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+11080E,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+12121Y,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+07264H,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+01381Q,Oral,Oral,Targeted,DASATINIB,Tablet 50 mg,L01EA02
+01415L,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+11928T,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11961M,Oral,Oral,Targeted,BINIMETINIB,Tablet 15 mg,L01EE03
+11938H,Oral,Oral,Targeted,ENCORAFENIB,Capsule 75 mg,L01EC03
+11949X,Oral,Oral,Targeted,ENCORAFENIB,Capsule 75 mg,L01EC03
+10798H,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+10803N,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+11411N,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+09124F,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+09127J,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+09126H,Oral,Oral,Targeted,DASATINIB,Tablet 50 mg,L01EA02
+11453T,Oral,Oral,Targeted,PONATINIB,Tablet 45 mg (as hydrochloride),L01EA05
+10523W,Oral,Oral,Targeted,PONATINIB,Tablet 15 mg (as hydrochloride),L01EA05
+10524X,Oral,Oral,Targeted,PONATINIB,Tablet 45 mg (as hydrochloride),L01EA05
+11425H,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+10362J,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+02842N,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+10009T,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+09123E,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+10242C,Oral,Oral,Targeted,SORAFENIB,Tablet 200 mg (as tosilate),L01EX02
+02954L,Oral,Oral,Targeted,DABRAFENIB,Capsule 50 mg (as mesilate),L01EC02
+11819C,Oral,Oral,Targeted,TRAMETINIB,Tablet 2 mg,L01EE01
+11823G,Oral,Oral,Targeted,DABRAFENIB,Capsule 75 mg (as mesilate),L01EC02
+11646Y,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11252F,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+10591K,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 100 mg in 10 mL,L01XC02
+12166H,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+12167J,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11293J,IV,Parenteral,Chemotherapy,PRALATREXATE,Solution for I.V. infusion 20 mg in 1 mL,L01BA05
+11539H,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+11679Q,IV,Parenteral,Immunotherapy,AVELUMAB,Solution concentrate for I.V. infusion 200 mg in 10 mL,L01XC31
+11685B,IV,Parenteral,Immunotherapy,AVELUMAB,Solution concentrate for I.V. infusion 200 mg in 10 mL,L01XC31
+11352L,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+11254H,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+09489K,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+11253G,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+11772N,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+12033H,Oral,Oral,Chemotherapy,TRIFLURIDINE + TIPIRACIL,Tablet containing 20 mg trifluridine with 8.19 mg tipiracil (as hydrochloride),L01BC59
+12056M,Oral,Oral,Chemotherapy,TRIFLURIDINE + TIPIRACIL,Tablet containing 15 mg trifluridine with 6.14 mg tipiracil (as hydrochloride),L01BC59
+10385N,Oral,Oral,Targeted,TRAMETINIB,Tablet 500 micrograms,L01EE01
+12165G,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+12164F,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+10575N,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11762C,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11503K,Oral,Oral,Targeted,OLAPARIB,Tablet 100 mg,L01XK01
+11034R,Oral,Oral,Targeted,OLAPARIB,Capsule 50 mg,L01XX46
+11050N,Oral,Oral,Targeted,OLAPARIB,Capsule 50 mg,L01XK01
+11458C,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11468N,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11727F,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11731K,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+02232L,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+10054E,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+10052C,Oral,Oral,Targeted,PAZOPANIB,Tablet 400 mg (as hydrochloride),L01EX03
+10709P,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+11081F,Oral,Oral,Targeted,VEMURAFENIB,Tablet 240 mg,L01EC01
+11075X,Oral,Oral,Targeted,COBIMETINIB,Tablet 20 mg,L01EE02
+11267B,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+10588G,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11598K,Oral,Oral,Targeted,EVEROLIMUS,"Tablet, dispersible, 5 mg",L01EG02
+11272G,IV,Parenteral,Chemotherapy,PRALATREXATE,Solution for I.V. infusion 20 mg in 1 mL,L01BA05
+11807K,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11371L,Oral,Oral,Targeted,CABOZANTINIB,Tablet 20 mg,L01EX07
+02034C,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01XE11
+11542L,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+04514N,Injection,Parenteral,Chemotherapy,MITOZANTRONE,Injection 20 mg (as hydrochloride) in 10 mL,L01DB07
+07272R,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+10309N,IV,Parenteral,Targeted,PERTUZUMAB,Solution for I.V. infusion 420 mg in 14 mL,L01XC13
+11805H,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+12117R,Oral,Oral,Targeted,ACALABRUTINIB,Capsule 100 mg,L01EL02
+11460E,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11455X,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+11304Y,Oral,Oral,Targeted,SONIDEGIB,Capsule 200 mg,L01XJ02
+11636K,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11592D,Oral,Oral,Targeted,EVEROLIMUS,"Tablet, dispersible, 5 mg",L01EG02
+11258M,Oral,Oral,Targeted,EVEROLIMUS,Tablet 2.5 mg,L01EG02
+11263T,Oral,Oral,Targeted,ERLOTINIB,Tablet 25 mg (as hydrochloride),L01EB02
+10028T,Oral,Oral,Targeted,ERLOTINIB,Tablet 25 mg (as hydrochloride),L01EB02
+07245H,Injection,Parenteral,Chemotherapy,FOTEMUSTINE,Powder for injection 208 mg with solvent,L01AD05
+11171Y,Oral,Oral,Targeted,IDELALISIB,Tablet 100 mg,L01EM01
+09488J,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+11701W,Injection,Parenteral,Chemotherapy,BLEOMYCIN,"Powder for injection containing bleomycin sulfate 15,000 I.U. in 1 vial",L01DC01
+11809M,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11948W,Oral,Oral,Targeted,BINIMETINIB,Tablet 15 mg,L01EE03
+10249K,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC10
+10236R,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 1000 mg in 50 mL,L01XC10
+10708N,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+10010W,Oral,Oral,Targeted,SUNITINIB,Capsule 50 mg,L01EX01
+11165P,Oral,Oral,Targeted,IDELALISIB,Tablet 150 mg,L01EM01
+11935E,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+10741H,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+11073T,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11664X,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11758W,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11868P,Oral,Oral,Targeted,ABEMACICLIB,Tablet 150 mg,L01EF03
+11786H,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+10503T,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+10691Q,Injection,Parenteral,Chemotherapy,ARSENIC,Injection concentrate containing arsenic trioxide 10 mg in 10 mL,L01XX27
+11522K,Oral,Oral,Targeted,OLAPARIB,Tablet 100 mg,L01XK01
+11528R,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+09343R,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+09116T,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+09115R,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11745E,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+04610P,IV,Parenteral,Chemotherapy,RALTITREXED,Powder for I.V. infusion 2 mg in single use vial,L01BA03
+12091J,Oral,Oral,Targeted,LORLATINIB,Tablet 100 mg,L01ED05
+10583B,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 100 mg in 10 mL,L01XC02
+11791N,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11811P,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+11801D,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11506N,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+11251E,Oral,Oral,Targeted,LAPATINIB,Tablet 250 mg (as ditosilate monohydrate),L01EH01
+04713C,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+10323H,Oral,Oral,Targeted,CRIZOTINIB,Capsule 200 mg,L01ED01
+11763D,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11648C,Oral,Oral,Targeted,VENETOCLAX,Tablet 50 mg,L01XX52
+10721G,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+11660Q,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11116C,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11119F,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11115B,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11673J,IV,Parenteral,Targeted,INOTUZUMAB OZOGAMICIN,Powder for I.V. infusion 1 mg,L01XC26
+09173T,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+11957H,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+11336P,Oral,Oral,Targeted,AFATINIB,Tablet 20 mg,L01EB03
+02485T,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+09171Q,Oral,Oral,Targeted,NILOTINIB,Capsule 200 mg (as hydrochloride monohydrate),L01EA03
+02818H,Oral,Oral,Targeted,EVEROLIMUS,Tablet 2.5 mg,L01EG02
+10530F,Oral,Oral,Targeted,PONATINIB,Tablet 45 mg (as hydrochloride),L01EA05
+12124D,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+10166C,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+12096P,Oral,Oral,Targeted,LORLATINIB,Tablet 25 mg,L01ED05
+07241D,Injection,Parenteral,Chemotherapy,ARSENIC,Injection concentrate containing arsenic trioxide 10 mg in 10 mL,L01XX27
+11594F,Oral,Oral,Targeted,CRIZOTINIB,Capsule 250 mg,L01ED01
+02963Y,Oral,Oral,Targeted,DABRAFENIB,Capsule 50 mg (as mesilate),L01EC02
+11620N,Oral,Oral,Targeted,OSIMERTINIB,Tablet 40 mg,L01EB04
+10022L,Oral,Oral,Targeted,ERLOTINIB,Tablet 25 mg (as hydrochloride),L01EB02
+12128H,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11473W,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+10520Q,Oral,Oral,Targeted,PONATINIB,Tablet 15 mg (as hydrochloride),L01EA05
+11871T,Oral,Oral,Targeted,ABEMACICLIB,Tablet 100 mg,L01EF03
+11377T,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+11930X,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+10817H,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+11802E,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11803F,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+09178C,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+05443L,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+12120X,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+12119W,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11880G,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11362B,Oral,Oral,Targeted,EVEROLIMUS,Tablet 5 mg,L01EG02
+10042M,Oral,Oral,Targeted,PAZOPANIB,Tablet 200 mg (as hydrochloride),L01EX03
+11780B,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+10240Y,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC10
+11776T,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+11262R,Oral,Oral,Targeted,EVEROLIMUS,Tablet 10 mg,L01EG02
+12161C,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+11330H,Injection,Parenteral,Immunotherapy,PEMBROLIZUMAB,Powder for injection 50 mg,L01XC18
+04725Q,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 3.5 mg,L01XG01
+11505M,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+02478K,Oral,Oral,Targeted,DASATINIB,Tablet 20 mg,L01EA02
+10464R,Oral,Oral,Targeted,SUNITINIB,Capsule 37.5 mg,L01EX01
+02959R,Oral,Oral,Targeted,SUNITINIB,Capsule 25 mg,L01EX01
+12127G,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11212D,IV,Parenteral,Chemotherapy,ERIBULIN,Solution for I.V. injection containing eribulin mesilate 1 mg in 2 mL,L01XX41
+11329G,Oral,Oral,Targeted,AFATINIB,Tablet 50 mg,L01EB03
+11341X,Oral,Oral,Targeted,AFATINIB,Tablet 30 mg,L01EB03
+04371C,Injection,Parenteral,Chemotherapy,ARSENIC,Injection concentrate containing arsenic trioxide 10 mg in 10 mL,L01XX27
+02448W,Oral,Oral,Chemotherapy,IDARUBICIN,Capsule containing idarubicin hydrochloride 10 mg,L01DB06
+11367G,Oral,Oral,Targeted,CABOZANTINIB,Tablet 60 mg,L01EX07
+11278N,IV,Parenteral,Chemotherapy,PRALATREXATE,Solution for I.V. infusion 20 mg in 1 mL,L01BA05
+11765F,Oral,Oral,Targeted,IMATINIB,Tablet 400 mg (as mesilate),L01EA01
+02482P,Oral,Oral,Targeted,DASATINIB,Tablet 50 mg,L01EA02
+11756R,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+09174W,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11976H,Oral,Oral,Targeted,BRIGATINIB,Pack containing 7 tablets 90 mg and 21 tablets 180 mg,L01ED04
+11589Y,Oral,Oral,Targeted,CRIZOTINIB,Capsule 200 mg,L01ED01
+11800C,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+12163E,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+10925B,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11271F,IV,Parenteral,Chemotherapy,PRALATREXATE,Solution for I.V. infusion 20 mg in 1 mL,L01BA05
+10935M,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+09172R,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+12123C,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11813R,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 100 mg in 10 mL,L01XC02
+11641Q,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+12171N,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11266Y,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+10004M,Oral,Oral,Targeted,SUNITINIB,Capsule 12.5 mg,L01EX01
+10915L,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+11781C,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11770L,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+02643D,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 200 mg in 40 mL,L01XC11
+09125G,Oral,Oral,Targeted,DASATINIB,Tablet 20 mg,L01EA02
+11647B,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+11870R,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+11335N,Oral,Oral,Targeted,AFATINIB,Tablet 20 mg,L01EB03
+11079D,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+10811B,SC,Parenteral,Targeted,TRASTUZUMAB,Solution for subcutaneous injection containing trastuzumab 600 mg in 5 mL,L01XC03
+11764E,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+10921T,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+05705G,IV,Parenteral,Chemotherapy,DOXORUBICIN HYDROCHLORIDE (AS PEGYLATED LIPOSOMAL),Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL,L01DB01
+10252N,IV,Parenteral,Targeted,OFATUMUMAB,Solution concentrate for I.V. infusion 1000 mg in 50 mL,L01XC10
+10920R,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+02446R,Oral,Oral,Chemotherapy,IDARUBICIN,Capsule containing idarubicin hydrochloride 5 mg,L01DB06
+11635J,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+11984R,Oral,Oral,Targeted,BRIGATINIB,Tablet 180 mg,L01ED04
+11118E,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11120G,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11117D,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+11591C,Oral,Oral,Targeted,EVEROLIMUS,"Tablet, dispersible, 2 mg",L01EG02
+06249X,IV,Parenteral,Chemotherapy,DOXORUBICIN HYDROCHLORIDE (AS PEGYLATED LIPOSOMAL),Suspension for I.V. infusion containing pegylated liposomal doxorubicin hydrochloride 20 mg in 10 mL,L01DB01
+11954E,Oral,Oral,Targeted,ENCORAFENIB,Capsule 50 mg,L01EC03
+10939R,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+10171H,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+12155R,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+11783E,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+10917N,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+10924Y,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+11937G,Oral,Oral,Targeted,ENCORAFENIB,Capsule 50 mg,L01EC03
+11790M,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11696N,IV,Parenteral,Targeted,INOTUZUMAB OZOGAMICIN,Powder for I.V. infusion 1 mg,L01XC26
+04437M,Injection,Parenteral,Chemotherapy,FOTEMUSTINE,Powder for injection 208 mg with solvent,L01AD05
+11531X,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+02663E,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 200 mg in 40 mL,L01XC11
+11820D,Oral,Oral,Targeted,DABRAFENIB,Capsule 50 mg (as mesilate),L01EC02
+11876C,Oral,Oral,Targeted,ABEMACICLIB,Tablet 50 mg,L01EF03
+11096B,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+11940K,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+11804G,IV,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+11624T,Oral,Oral,Targeted,VENETOCLAX,Tablet 10 mg,L01XX52
+10346M,IV,Parenteral,Targeted,TRASTUZUMAB,Powder for I.V. infusion 60 mg,L01XC03
+11942M,SC,Parenteral,Targeted,RITUXIMAB,Solution for subcutaneous injection containing rituximab 1400 mg in 11.7 mL,L01XC02
+12227M,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+12169L,Oral,Oral,Targeted,OLAPARIB,Tablet 100 mg,L01XK01
+12232T,Oral,Oral,Targeted,OSIMERTINIB,Tablet 80 mg,L01EB04
+12129J,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11936F,Injection,Parenteral,Targeted,RITUXIMAB,Solution for I.V. infusion 500 mg in 50 mL,L01XC02
+12221F,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12219D,Injection,Parenteral,Chemotherapy,BORTEZOMIB,Powder for injection 1 mg,L01XG01
+12771E,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+12784W,Injection,Parenteral,Chemotherapy,AZACITIDINE,Powder for injection 100 mg,L01BC07
+10933K,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+10940T,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+11757T,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+11769K,Oral,Oral,Targeted,IMATINIB,Tablet 100 mg (as mesilate),L01EA01
+11777W,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+12681K,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+12710Y,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+12711B,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+12723P,Oral,Oral,Targeted,IMATINIB,Capsule 400 mg (as mesilate),L01EA01
+12759M,Oral,Oral,Targeted,IMATINIB,Capsule 100 mg (as mesilate),L01EA01
+12842X,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+12843Y,Oral,Oral,Targeted,DASATINIB,Tablet 50 mg,L01EA02
+12859T,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+12860W,Oral,Oral,Targeted,DASATINIB,Tablet 50 mg,L01EA02
+12866E,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+12886F,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+12889J,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+12890K,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+12902C,Oral,Oral,Targeted,DASATINIB,Tablet 100 mg,L01EA02
+12903D,Oral,Oral,Targeted,DASATINIB,Tablet 70 mg,L01EA02
+12858R,Oral,Oral,Targeted,NILOTINIB,Capsule 200 mg (as hydrochloride monohydrate),L01EA03
+12868G,Oral,Oral,Targeted,NILOTINIB,Capsule 150 mg (as hydrochloride monohydrate),L01EA03
+11454W,Oral,Oral,Targeted,PONATINIB,Tablet 15 mg (as hydrochloride),L01EA05
+12233W,Oral,Oral,Targeted,OSIMERTINIB,Tablet 40 mg,L01EB04
+12814K,Oral,Oral,Targeted,ENCORAFENIB,Capsule 75 mg,L01EC03
+12815L,Oral,Oral,Targeted,ENCORAFENIB,Capsule 75 mg,L01EC03
+11974F,Oral,Oral,Targeted,BRIGATINIB,Tablet 90 mg,L01ED04
+11821E,Oral,Oral,Targeted,TRAMETINIB,Tablet 500 micrograms,L01EE01
+12818P,Oral,Oral,Targeted,PALBOCICLIB,Tablet 75 mg,L01EF01
+12819Q,Oral,Oral,Targeted,PALBOCICLIB,Tablet 100 mg,L01EF01
+12822W,Oral,Oral,Targeted,PALBOCICLIB,Tablet 125 mg,L01EF01
+11599L,Oral,Oral,Targeted,EVEROLIMUS,"Tablet, dispersible, 3 mg",L01EG02
+11608Y,Oral,Oral,Targeted,EVEROLIMUS,"Tablet, dispersible, 3 mg",L01EG02
+12826C,Oral,Oral,Targeted,ACALABRUTINIB,Capsule 100 mg,L01EL02
+11170X,Oral,Oral,Targeted,IDELALISIB,Tablet 100 mg,L01EM01
+12812H,Oral,Oral,Targeted,IDELALISIB,Tablet 150 mg,L01EM01
+12953R,Oral,Oral,Targeted,NINTEDANIB,Capsule 150 mg,L01EX09
+12967L,Oral,Oral,Targeted,NINTEDANIB,Capsule 100 mg,L01EX09
+11518F,Oral,Oral,Targeted,MIDOSTAURIN,Capsule 25 mg,L01EX10
+12817N,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+12821T,IV,Parenteral,Targeted,CETUXIMAB,Solution for I.V. infusion 500 mg in 100 mL,L01XC06
+12479T,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+12508H,IV,Parenteral,Targeted,BEVACIZUMAB,Solution for I.V. infusion 100 mg in 4 mL,L01XC07
+12641H,Injection,Parenteral,Targeted,OFATUMUMAB,Solution for injection 20 mg in 0.4 mL pre-filled pen,L01XC10
+12642J,Injection,Parenteral,Targeted,OFATUMUMAB,Solution for injection 20 mg in 0.4 mL pre-filled pen,L01XC10
+12304N,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+12322M,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+12324P,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+12583G,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+12601F,IV,Parenteral,Immunotherapy,IPILIMUMAB,Injection concentrate for I.V. infusion 50 mg in 10 mL,L01XC11
+11087M,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+12656D,IV,Parenteral,Targeted,BRENTUXIMAB VEDOTIN,Powder for I.V. infusion 50 mg,L01XC12
+12193R,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+12204H,IV,Parenteral,Targeted,OBINUTUZUMAB,Solution for I.V. infusion 1000 mg in 40 mL,L01XC15
+12303M,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12312B,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12315E,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12323N,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12574T,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12602G,IV,Parenteral,Immunotherapy,NIVOLUMAB,Injection concentrate for I.V. infusion 100 mg in 10 mL,L01XC17
+12125E,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+12130K,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+12605K,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+12615Y,IV,Parenteral,Immunotherapy,PEMBROLIZUMAB,Solution concentrate for I.V. infusion 100 mg in 4 mL,L01XC18
+11867N,IV,Parenteral,Targeted,BLINATUMOMAB,Powder for I.V. infusion 38.5 micrograms,L01XC19
+12220E,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12225K,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12226L,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12228N,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12229P,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12230Q,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12231R,IV,Parenteral,Targeted,DARATUMUMAB,Solution concentrate for I.V. infusion 100 mg in 5 mL,L01XC24
+12673B,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12682L,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12683M,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12704P,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12725R,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12745T,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12746W,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+12755H,IV,Parenteral,Targeted,DARATUMUMAB,Solution for Injection injection containing daratumumab 1800 mg in 15 mL,L01XC24
+11668D,IV,Parenteral,Targeted,INOTUZUMAB OZOGAMICIN,Powder for I.V. infusion 1 mg,L01XC26
+11931Y,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+12076N,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+12078Q,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+12098R,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+12159Y,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 840 mg in 14 mL,L01XC32
+12168K,IV,Parenteral,Immunotherapy,ATEZOLIZUMAB,Solution concentrate for I.V. infusion 1200 mg in 20 mL,L01XC32
+12243J,Injection,Parenteral,Chemotherapy,CARFILZOMIB,Powder for injection 30 mg,L01XG02
+12244K,Injection,Parenteral,Chemotherapy,CARFILZOMIB,Powder for injection 30 mg,L01XG02
+12170M,Oral,Oral,Targeted,OLAPARIB,Tablet 100 mg,L01XK01
+12913P,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+12929L,Oral,Oral,Targeted,OLAPARIB,Tablet 150 mg,L01XK01
+12188L,Oral,Oral,Targeted,VENETOCLAX,Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14  tablets venetoclax 100 mg,L01XX52
+12205J,Oral,Oral,Targeted,VENETOCLAX,Tablet 100 mg,L01XX52
+12773G,Oral,Oral,Targeted,VENETOCLAX,Tablet 50 mg,L01XX52
+12803W,Oral,Oral,Targeted,VENETOCLAX,Tablet 100 mg,L01XX52
