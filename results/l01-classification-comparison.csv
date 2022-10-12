@@ -1,0 +1,46 @@
+"","DRUG_NAME.orig","ATC_CODE","FORM.STRENGTH","Type.orig","Delivery.route.orig","DRUG_NAME.new","Type.new","Delivery.route.new","route.match","type.match"
+"1","BEVACIZUMAB","L01XC07","Solution for I.V. infusion 100 mg in 4 mL","Targeted","IV","BEVACIZUMAB","Targeted","IV",TRUE,TRUE
+"2","MIDOSTAURIN","L01EX10","Capsule 25 mg","Targeted","Oral","MIDOSTAURIN","Targeted","Oral",TRUE,TRUE
+"3","NINTEDANIB","L01EX09","Capsule 150 mg","Targeted","Oral","NINTEDANIB","Targeted","Oral",TRUE,TRUE
+"4","NIVOLUMAB","L01XC17","Injection concentrate for I.V. infusion 100 mg in 10 mL","Immunotherapy","IV","NIVOLUMAB","Immunotherapy","IV",TRUE,TRUE
+"5","IDELALISIB","L01EM01","Tablet 150 mg","Targeted","Oral","IDELALISIB","Targeted","Oral",TRUE,TRUE
+"6","CETUXIMAB","L01XC06","Solution for I.V. infusion 500 mg in 100 mL","Targeted","IV","CETUXIMAB","Targeted","IV",TRUE,TRUE
+"7","ATEZOLIZUMAB","L01XC32","Solution concentrate for I.V. infusion 1200 mg in 20 mL","Immunotherapy","IV","ATEZOLIZUMAB","Immunotherapy","IV",TRUE,TRUE
+"8","PEMBROLIZUMAB","L01XC18","Solution concentrate for I.V. infusion 100 mg in 4 mL","Immunotherapy","IV","PEMBROLIZUMAB","Immunotherapy","IV",TRUE,TRUE
+"9","BRENTUXIMAB VEDOTIN","L01XC12","Powder for I.V. infusion 50 mg","Targeted","IV","BRENTUXIMAB VEDOTIN","Targeted","IV",TRUE,TRUE
+"10","NILOTINIB","L01EA03","Capsule 150 mg (as hydrochloride monohydrate)","Targeted","Oral","NILOTINIB","Targeted","Oral",TRUE,TRUE
+"11","VENETOCLAX","L01XX52","Pack containing 14 tablets venetoclax 10 mg and 7 tablets venetoclax 50 mg and 7 tablets venetoclax 100 mg and 14  tablets venetoclax 100 mg","Targeted","Oral","VENETOCLAX","Targeted","Oral",TRUE,TRUE
+"12","AZACITIDINE","L01BC07","Powder for injection 100 mg","Chemotherapy","Injection","AZACITIDINE","Chemotherapy","Subcutaneous",FALSE,TRUE
+"13","IMATINIB","L01EA01","Tablet 100 mg (as mesilate)","Targeted","Oral","IMATINIB","Targeted","Oral",TRUE,TRUE
+"14","OBINUTUZUMAB","L01XC15","Solution for I.V. infusion 1000 mg in 40 mL","Targeted","IV","OBINUTUZUMAB","Targeted","IV",TRUE,TRUE
+"15","NINTEDANIB","L01EX09","Capsule 100 mg","Targeted","Oral","NINTEDANIB","Targeted","Oral",TRUE,TRUE
+"16","TRAMETINIB","L01EE01","Tablet 500 micrograms","Targeted","Oral","TRAMETINIB","Targeted","Oral",TRUE,TRUE
+"17","CARFILZOMIB","L01XG02","Powder for injection 30 mg","Chemotherapy","Injection","CARFILZOMIB","Chemotherapy","IV",FALSE,TRUE
+"18","DASATINIB","L01EA02","Tablet 100 mg","Targeted","Oral","DASATINIB","Targeted","Oral",TRUE,TRUE
+"19","VENETOCLAX","L01XX52","Tablet 100 mg","Targeted","Oral","VENETOCLAX","Targeted","Oral",TRUE,TRUE
+"20","IMATINIB","L01EA01","Capsule 400 mg (as mesilate)","Targeted","Oral","IMATINIB","Targeted","Oral",TRUE,TRUE
+"21","IPILIMUMAB","L01XC11","Injection concentrate for I.V. infusion 50 mg in 10 mL","Immunotherapy","IV","IPILIMUMAB","Immunotherapy","IV",TRUE,TRUE
+"22","OLAPARIB","L01XK01","Tablet 150 mg","Targeted","Oral","OLAPARIB","Targeted","Oral",TRUE,TRUE
+"23","IMATINIB","L01EA01","Capsule 100 mg (as mesilate)","Targeted","Oral","IMATINIB","Targeted","Oral",TRUE,TRUE
+"24","DASATINIB","L01EA02","Tablet 50 mg","Targeted","Oral","DASATINIB","Targeted","Oral",TRUE,TRUE
+"25","DASATINIB","L01EA02","Tablet 70 mg","Targeted","Oral","DASATINIB","Targeted","Oral",TRUE,TRUE
+"26","ENCORAFENIB","L01EC03","Capsule 75 mg","Targeted","Oral","ENCORAFENIB","Targeted","Oral",TRUE,TRUE
+"27","PONATINIB","L01EA05","Tablet 15 mg (as hydrochloride)","Targeted","Oral","PONATINIB","Targeted","Oral",TRUE,TRUE
+"28","OLAPARIB","L01XK01","Tablet 100 mg","Targeted","Oral","OLAPARIB","Targeted","Oral",TRUE,TRUE
+"29","ACALABRUTINIB","L01EL02","Capsule 100 mg","Targeted","Oral","ACALABRUTINIB","Targeted","Oral",TRUE,TRUE
+"30","IDELALISIB","L01EM01","Tablet 100 mg","Targeted","Oral","IDELALISIB","Targeted","Oral",TRUE,TRUE
+"31","VENETOCLAX","L01XX52","Tablet 50 mg","Targeted","Oral","VENETOCLAX","Targeted","Oral",TRUE,TRUE
+"32","BLINATUMOMAB","L01XC19","Powder for I.V. infusion 38.5 micrograms","Targeted","IV","BLINATUMOMAB","Targeted","IV",TRUE,TRUE
+"33","INOTUZUMAB OZOGAMICIN","L01XC26","Powder for I.V. infusion 1 mg","Targeted","IV","INOTUZUMAB OZOGAMICIN","Targeted","IV",TRUE,TRUE
+"34","ATEZOLIZUMAB","L01XC32","Solution concentrate for I.V. infusion 840 mg in 14 mL","Immunotherapy","IV","ATEZOLIZUMAB","Immunotherapy","IV",TRUE,TRUE
+"35","NILOTINIB","L01EA03","Capsule 200 mg (as hydrochloride monohydrate)","Targeted","Oral","NILOTINIB","Targeted","Oral",TRUE,TRUE
+"36","OSIMERTINIB","L01EB04","Tablet 40 mg","Targeted","Oral","OSIMERTINIB","Targeted","Oral",TRUE,TRUE
+"37","PEMBROLIZUMAB","L01XC18","Solution concentrate for I.V. infusion 100 mg in 4 mL","Immunotherapy","Injection","PEMBROLIZUMAB","Immunotherapy","IV",FALSE,TRUE
+"38","DARATUMUMAB","L01XC24","Solution concentrate for I.V. infusion 100 mg in 5 mL","Targeted","Injection","DARATUMUMAB","Targeted","IV",FALSE,TRUE
+"39",NA,"L01ED04","Tablet 90 mg",NA,NA,"BRIGATINIB","Targeted","Oral",NA,NA
+"40",NA,"L01EF01","Tablet 75 mg",NA,NA,"PALBOCICLIB","Targeted","Oral",NA,NA
+"41",NA,"L01EF01","Tablet 100 mg",NA,NA,"PALBOCICLIB","Targeted","Oral",NA,NA
+"42",NA,"L01EF01","Tablet 125 mg",NA,NA,"PALBOCICLIB","Targeted","Oral",NA,NA
+"43",NA,"L01EG02","Tablet, dispersible, 3 mg",NA,NA,"EVEROLIMUS","Targeted","Oral",NA,NA
+"44",NA,"L01XC10","Solution for injection 20 mg in 0.4 mL pre-filled pen",NA,NA,"OFATUMUMAB","Targeted","Subcutaneous",NA,NA
+"45",NA,"L01XC24","Solution for subcutaneous injection containing daratumumab 1800 mg in 15 mL",NA,NA,"DARATUMUMAB","Targeted","IV",NA,NA
